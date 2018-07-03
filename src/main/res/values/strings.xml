@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EComApp</string>
+    <string name="login">Login:</string>
+    <string name="user">UserName</string>
+    <string name="pass">Password</string>
+    <string name="enter">Enter</string>
+    <string name="pass_">1</string>
+    <string name="user_">Admin</string>
+    <string name="WrongCreds">Your Credentials are wrong!\nPlease Try Again!</string>
+    <string name="adduser">Add a User</string>
+    <string name="updateuser">Update User</string>
+    <string name="Admin">Administrator</string>
+    <string name="User_master">User Master</string>
+    <string name="Catalogue_master">Catalogue Master</string>
+    <string name="Transaction_master">Transaction Master</string>
+</resources>

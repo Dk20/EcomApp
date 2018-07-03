@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin"
+
+    >
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/Admin"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/buttonGoToUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/User_master"
+            android:background="@drawable/round_button_teal"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/buttonGoToCatalogue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Catalogue_master"
+            android:background="@drawable/round_button_teal"
+            android:layout_margin="4dp"
+            />
+
+        <Button
+            android:id="@+id/buttonGoToTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Transaction_master"
+            android:background="@drawable/round_button_teal"
+            android:layout_margin="4dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/logoutAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_red"
+        android:layout_alignParentBottom="true"
+        android:text="LOGOUT"
+        />
+
+</RelativeLayout>

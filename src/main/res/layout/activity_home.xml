@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/greetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        />
+    <ListView
+        android:id="@+id/listViewUserTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greetText"
+        android:layout_above="@id/buttonViewCatalogue"
+        />
+
+    <Button
+        android:id="@+id/buttonViewCatalogue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_red"
+        android:layout_above="@id/logout"
+        android:text="Let's Buy Something!"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_marginTop="5dp"
+        android:text = "Logout"
+        android:background="@drawable/round_button_blue"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+
+
+</RelativeLayout>
